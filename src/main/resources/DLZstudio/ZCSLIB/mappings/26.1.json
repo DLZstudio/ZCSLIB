@@ -1,0 +1,13 @@
+{
+  "version": "26.1",
+  "base": false,
+  "note": "Mojang removed obfuscation in 26.1. Runtime names equal Mojang names. No obf mapping needed.",
+  "source": "https://neoforged.net/news/26.1release/",
+  "classRenames": {
+    "net/minecraft/resources/ResourceLocation": {
+      "current": "net/minecraft/resources/Identifier",
+      "note": "API rename (not obfuscation) in 26.1"
+    }
+  },
+  "classes": {}
+}

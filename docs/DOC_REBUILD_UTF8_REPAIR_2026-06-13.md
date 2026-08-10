@@ -1,7 +1,7 @@
 # ZCSLIB 文档重建 + 编码修复 (2026-06-13)
 
 ## 问题
-`Set-Content`（无 `-Encoding UTF8`）批量替换包名时以 GBK 编码写入，破坏了：
+`Set-Content`（无 `-Encoding UTF8`）批量替换包名时以 GBK 编码破坏了：
 - 10 篇 docx 文档的中文内容
 - 28 个 .java 源文件的 Javadoc 中文注释
 

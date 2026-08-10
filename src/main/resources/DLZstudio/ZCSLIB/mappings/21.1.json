@@ -1,0 +1,48 @@
+{
+  "version": "21.1",
+  "base": true,
+  "note": "Baseline mappings for NeoForge 21.1. Full obf→Mojang mapping available from Mojang's official ProGuard file (SHA1: 2244b6f072256667bcd9a73df124d6c58de77992, ~9MB). This file contains commonly-referenced classes only. For full mappings, use the Mojang client.txt file.",
+  "source": "https://piston-data.mojang.com/v1/objects/2244b6f072256667bcd9a73df124d6c58de77992/client.txt",
+  "classes": {
+    "net/minecraft/world/item/Item": {
+      "obf": "net/minecraft/world/item/Item",
+      "note": "Class name stable (Mojang name = obf name)"
+    },
+    "net/minecraft/world/item/ItemStack": {
+      "obf": "net/minecraft/world/item/ItemStack",
+      "note": "Class name stable"
+    },
+    "net/minecraft/server/MinecraftServer": {
+      "obf": "net/minecraft/server/MinecraftServer",
+      "note": "Class name stable"
+    },
+    "net/minecraft/server/level/ServerPlayer": {
+      "obf": "net/minecraft/server/level/ServerPlayer",
+      "note": "Class name stable"
+    },
+    "net/minecraft/server/level/ServerLevel": {
+      "obf": "net/minecraft/server/level/ServerLevel",
+      "note": "Class name stable"
+    },
+    "net/minecraft/core/BlockPos": {
+      "obf": "net/minecraft/core/BlockPos",
+      "note": "Class name stable"
+    },
+    "net/minecraft/nbt/CompoundTag": {
+      "obf": "net/minecraft/nbt/CompoundTag",
+      "note": "Class name stable"
+    },
+    "net/minecraft/world/level/block/entity/BlockEntity": {
+      "obf": "net/minecraft/world/level/block/entity/BlockEntity",
+      "note": "Class name stable"
+    },
+    "net/minecraft/world/level/ChunkPos": {
+      "obf": "net/minecraft/world/level/ChunkPos",
+      "note": "Class name stable"
+    },
+    "net/minecraft/network/FriendlyByteBuf": {
+      "obf": "net/minecraft/network/FriendlyByteBuf",
+      "note": "Class name stable in 21.1; changed to RegistryFriendlyByteBuf in 26.1"
+    }
+  }
+}

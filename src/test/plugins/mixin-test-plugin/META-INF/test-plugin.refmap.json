@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "net/minecraft/world/item/ItemStack": {
+      "split (I)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/item/ItemStack;split(I)Lnet/minecraft/world/item/ItemStack;"
+    },
+    "net/minecraft/server/MinecraftServer": {
+      "getTickCount ()J": "Lnet/minecraft/server/MinecraftServer;getTickCount()J"
+    }
+  }
+}

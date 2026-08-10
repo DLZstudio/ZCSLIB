@@ -41,4 +41,7 @@ dependencies {
     // ZCSLIB is a pure runtime host
     // Gson: available at runtime via Minecraft; compileOnly for PEC parsing
     compileOnly 'com.google.code.gson:gson:2.10.1'
+
+    // Mixin: compileOnly — NeoForge provides org.spongepowered.asm.mixin at runtime
+    compileOnly 'org.spongepowered:mixin:0.8.5'
 }

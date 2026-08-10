@@ -1,0 +1,6 @@
+{
+  "pluginId": "test-plugin",
+  "mixins": [
+    "zcslib.testplugin.mixin.DummyMixinItem"
+  ]
+}
